@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nadia Castro | Portfólio</title>
+
+    <!-- Descrição -->
+    <meta
+      name="description"
+      content="Portfólio da desenvolvedora Nadia Castro para compartilhar projetos e habilidades desenvolvidas"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="./assets/styles/css/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/css/style.css" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__brand">
+        <img class="brand__logo" src="./assets/images/logo.png" alt="Logo NC" />
+        <h1 class="brand__text">Nadia Castro</h1>
+      </div>
+      <div class="header__controls">
+        <!-- Botão de baixar CV -->
+        <a href="./assets/doc/cv.pdf" download>
+          <button>Baixar CV</button>
+        </a>
+
+        <!-- Botão de tema -->
+        <i id="toggleTheme" class="bi bi-brightness-low-fill"></i>
+      </div>
+    </header>
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre"
+            ><span class="menu__text">Sobre</span></a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos"
+            ><span class="menu__text">Projetos</span></a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato"
+            ><span class="menu__text">Contatos</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="sobre" class="section" style="display: none">
+        <div style="overflow: auto">
+          <img
+            class="section__image"
+            src="./assets/images/Kitty.png"
+            alt="Descrição da imagem"
+          />
+          <p class="section__text">
+            Sou desenvolvedora Full Stack na Gráfica Marx, com foco no
+            desenvolvimento de scripts e aplicativos para automação de tarefas.
+            Tenho experiência na criação de dashboards para observability,
+            priorizando performance, clareza e monitoramento em tempo real. Fora
+            do trabalho, tecnologia continua sendo uma paixão — girls gamer,
+            dorameira e gato lover ✨.
+          </p>
+        </div>
+      </div>
+
+      <div id="projetos" class="section" style="display: none">
+        <div id="project-cards" class="project-cards-container"></div>
+        <div id="pagination" class="pagination">
+          <button id="prev" onclick="changePage(-1)">Anterior</button>
+          <button id="next" onclick="changePage(1)">Próximo</button>
+        </div>
+      </div>
+
+      <section id="contato" class="section">
+        <div class="contact-container">
+          <ul class="list__contatos">
+            <li class="contact-item">
+              <i class="bi bi-envelope-fill"></i>
+              <a href="mailto:nadianaely32@gmail.com">nadianaely32@gmail.com</a>
+            </li>
+            <li class="contact-item">
+              <i class="bi bi-linkedin"></i>
+              <a href="https://www.linkedin.com/in/nadia-naely/" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="contact-item">
+              <i class="bi bi-github"></i>
+              <a href="https://github.com/nadiacastr0" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="contact-item">
+              <i class="bi bi-instagram"></i>
+              <a
+                href="https://www.instagram.com/nadia._.castro/"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Nadia Castro, Todos os direitos reservados</p>
+    </footer>
+    <script src="./script/engine.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </body>
+</html>
