@@ -196,7 +196,7 @@ a {
 
 .section__text {
   padding: 0.625rem;
-  text-align: center;
+  text-align: justify;
   color: var(--text-color);
   font-size: 1.5rem;
 }
