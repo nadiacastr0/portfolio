@@ -8,12 +8,15 @@
 
 Este é o meu portfólio pessoal, construído para apresentar meus projetos, habilidades e experiência como desenvolvedora Full Stack.
 
-![Modo Claro](./assets/images/modo_claro.png)
+
+<img width="1916" height="907" alt="image" src="https://github.com/user-attachments/assets/b941d888-782e-4eb9-a1f6-c2d35abaa729" />
+
 *Visualização do portfólio no tema claro.*
 
 ---
 
-![Modo Escuro](./assets/images/modo_escuro.png)
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/0fe6104b-b51a-47f9-bd67-1ddbb81a605b" />
+
 *Visualização do portfólio no tema escuro.*
 
 ---
